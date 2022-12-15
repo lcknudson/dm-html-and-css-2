@@ -1,0 +1,68 @@
+
+/* top color  #444444 */
+/* middle color #EFEFEF */
+/* Left color  #D8D8D8 */
+/* Right color #D8D8D8  */
+/* bottom color #222222 */
+
+.divTop {
+ background-color: #444444;
+ height: 155px;
+}
+
+.divLeft {
+        background-color: #D8D8D8;
+        z-index: 2;
+        /* float: left; */
+        width: 30%;
+
+        display: flex;        
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: stretch;
+        align-content: space-between;
+    }
+
+
+/* .divRight{
+    background-color: #D8D8D8;
+    z-index: 2;
+    float: right;
+    width: 15%;
+
+} */
+
+.divMiddle {
+    background-color: #EFEFEF;
+    /* float: center; */
+    z-index: 1;
+    width: 70%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.divBottom {
+    background-color: #222222;
+    z-index: 1;
+    /* absolute: center; */
+    width: 70%;
+    /* align-items: center;
+    display: flex;
+    justify-content: center; */
+
+}
+
+.divCenterStack {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: space-between; 
+    width: 70%;
+
+}
