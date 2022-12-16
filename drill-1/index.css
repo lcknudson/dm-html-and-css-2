@@ -7,40 +7,56 @@
 
 .divTop {
  background-color: #444444;
- height: 155px;
+ /* height: 155px; */
+ height: 7vw;
+}
+
+.divSplit {
+    background-color: #D8D8D8;
+    width: 30vw;
+    
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+.divInline {
+    display: inline-block;
+}
+
+.divStack {
+    display: absolute;
 }
 
 .divLeft {
-        background-color: #D8D8D8;
-        z-index: 2;
-        /* float: left; */
-        width: 30%;
-
-        display: flex;        
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-between;
-        align-items: stretch;
-        align-content: space-between;
-    }
-
-
-/* .divRight{
     background-color: #D8D8D8;
-    z-index: 2;
-    float: right;
-    width: 15%;
+    float: left;
+    width: 155px;
+    height: 93vw;
+}
 
-} */
+
+.divRight{
+    background-color: #D8D8D8;
+    /* z-index: 2; */
+    float: right;
+    width: 155px;
+    height: 93vw;
+
+}
 
 .divMiddle {
     background-color: #EFEFEF;
     /* float: center; */
     z-index: 1;
-    width: 70%;
+    /* width: 770%; */
     align-items: center;
     display: flex;
     justify-content: center;
+    height: 89.5vw;
 
 
 }
@@ -48,8 +64,9 @@
 .divBottom {
     background-color: #222222;
     z-index: 1;
+    height: 3.5vw;
     /* absolute: center; */
-    width: 70%;
+    /* width: 600%; */
     /* align-items: center;
     display: flex;
     justify-content: center; */
@@ -60,9 +77,11 @@
     display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: stretch;
 	align-content: space-between; 
-    width: 70%;
+    height: 150px;
+
+    /* width: 670%; */
 
 }
